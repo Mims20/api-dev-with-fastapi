@@ -1,3 +1,6 @@
 .env
 __pycache__
 app.py
+docker-compose-prod.yml
+docker-compose-dev.yml
+Dockerfile
