@@ -5,9 +5,9 @@ from app import schemas
 from app.config import settings
 
 
-def test_home(client):
-    response = client.get("/")
-    assert response.json().get("message") == "Hello World"
+# def test_home(client):
+#     response = client.get("/")
+#     assert response.json().get("message") == "Hello World"
     # assert response.status_code == 200
 
 
